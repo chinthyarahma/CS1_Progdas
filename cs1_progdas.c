@@ -21,8 +21,8 @@ void vigenereDecrypt(char *ciphertext, char *key) {
 }
 
 int main() {
-    char message[] = "Asiy Nmezpam, Ytce Wozx!"; //Pesan Enkripsi
-    char *key = "realkey";
+    char message[] = "rey txs qb xztwxgnvotB rciS"; //Pesan Enkripsi
+    char *key = "tempkey";
 
     printf("Encypted Text : %s\n", ciphertext);
     vigenereDecrypt(ciphertext, key);
